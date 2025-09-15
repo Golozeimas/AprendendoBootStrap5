@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BootStrap - Jumbotron </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="Jumbotron" class="container bg-success text-white p-4 rounded my-4">
+        <h1>Curso de programação</h1>
+        <hr>
+        <p>Cursos de HTML, CSS e JavaScript</p>
+    </div>
+    <div class="container">
+        <button onclick="document.getElementById('Jumbotron').classList.remove('invisible')" class="mx-1">
+            Mostrar
+        </button>
+        <button onclick="document.getElementById('Jumbotron').classList.add('invisible')" class="mx-1">
+            Esconder
+        </button>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
